@@ -1,7 +1,11 @@
-from prettytable import PrettyTable
+from prettytable import PrettyTable as ET
+
+tree = ET.parse('.xml')
+root = tree.getroot()
 
 # Создание таблицы и добавление заголовков
 x = PrettyTable()
+
 x.field_names = ["ID", "Title", "Author"]
 
 # Добавление данных в таблицу
