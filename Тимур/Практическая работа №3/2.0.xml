@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student id = '1'>
+        <lastname>Иванов</lastname>
+        <firstname>Иван</firstname>
+        <middlename>Иванович</middlename>
+        <group>Группа 101</group>
+        <discipline>
+            <name>Математика</name>
+            <total_works>10</total_works>
+            <completed_works>2</completed_works>
+        </discipline>
+        <discipline>
+            <name>Физика</name>
+            <total_works>12</total_works>
+            <completed_works>9</completed_works>
+        </discipline>
+        <discipline>
+            <name>Химия</name>
+            <total_works>8</total_works>
+            <completed_works>7</completed_works>
+        </discipline>
+    </student>
+    <student id = '2'>
+        <lastname>Петров</lastname>
+        <firstname>Петр</firstname>
+        <middlename>Петрович</middlename>
+        <group>Группа 102</group>
+        <discipline>
+            <name>Физика</name>
+            <total_works>15</total_works>
+            <completed_works>12</completed_works>
+        </discipline>
+        <discipline>
+            <name>Информатика</name>
+            <total_works>10</total_works>
+            <completed_works>8</completed_works>
+        </discipline>
+    </student>
+    <student id = '3'>
+        <lastname>Иванов</lastname>
+        <firstname>Сергей</firstname>
+        <middlename>Петрович</middlename>
+        <group>Группа 101</group>
+        <discipline>
+            <name>Математика</name>
+            <total_works>10</total_works>
+            <completed_works>9</completed_works>
+        </discipline>
+        <discipline>
+            <name>Физика</name>
+            <total_works>12</total_works>
+            <completed_works>10</completed_works>
+        </discipline>
+    </student>
+</students>
