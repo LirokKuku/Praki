@@ -1,29 +1,12 @@
-import matplotlib.pyplot as plt
+from tkinter import *
+from tkinter import ttk
 
-# a) y = x ** 2 - 1;
-# б) y = x ** 2 - 8 * x + 15;
-# в) -2 * x ** 2 + 4 * x;
+root = Tk()
+root.title("METANIT.COM")
+root.geometry("250x200")
 
-list_x1 = []
-list_y1 = []
+languages = ["Python", "C#", "Java", "JavaScript"]
+combobox = ttk.Combobox(values=languages)
+combobox.pack(anchor=NW, padx=6, pady=6)
 
-# A
-for i in range(0, 100 + 1, 5):
-    list_x1.append(i)
-    list_y1.append(i ** 2 - 1)
-plt.plot(list_x1, list_y1, 'b.-')
-del list_x1[:], list_y1[:]
-
-# Б
-for i in range(0, 100 + 1, 5):
-    list_x1.append(i)
-    list_y1.append(i ** 2 - i * 8 + 15)
-plt.plot(list_x1, list_y1, 'r.-')
-del list_x1[:], list_y1[:]
-
-# В
-for i in range(0, 100 + 1, 5):
-    list_x1.append(i)
-    list_y1.append(- 2 * i ** 2 + i * 4)
-plt.plot(list_x1, list_y1, 'g.-')
-plt.show()
+root.mainloop()

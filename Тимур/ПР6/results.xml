@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EGE>
+    <results>
+        <applicant code="001">
+            <name>Иванов</name>
+            <math>68</math>
+            <russian>96</russian>
+            <informatics>95</informatics>
+        </applicant>
+        <applicant code="002">
+            <name>Петров</name>
+            <math>96</math>
+            <russian>89</russian>
+            <informatics>52</informatics>
+        </applicant>
+        <applicant code="003">
+            <name>Сидоров</name>
+            <math>68</math>
+            <russian>49</russian>
+            <informatics>55</informatics>
+        </applicant>
+    </results>
+</EGE>
