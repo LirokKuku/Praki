@@ -1,2 +1,2 @@
-a = str(input())
+ = str(input())
 print(a[::-1])
