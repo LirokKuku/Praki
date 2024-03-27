@@ -4,7 +4,7 @@ tree = parse.parse('2.0.xml')
 root = tree.getroot()
 
 grupa = int(input())
-for FIO in root.findall('students/student'):
+for FIO in root.findall('student'):
     group = int(FIO.find('group').text)
     if group == grupa:
         lastname = FIO.find('lastname').text

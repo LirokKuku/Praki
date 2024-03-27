@@ -4,7 +4,7 @@
         <lastname>Иванов</lastname>
         <firstname>Иван</firstname>
         <middlename>Иванович</middlename>
-        <group>Группа 101</group>
+        <group>101</group>
         <discipline>
             <name>Математика</name>
             <total_works>10</total_works>
@@ -25,7 +25,7 @@
         <lastname>Петров</lastname>
         <firstname>Петр</firstname>
         <middlename>Петрович</middlename>
-        <group>Группа 102</group>
+        <group>102</group>
         <discipline>
             <name>Физика</name>
             <total_works>15</total_works>
@@ -41,7 +41,7 @@
         <lastname>Иванов</lastname>
         <firstname>Сергей</firstname>
         <middlename>Петрович</middlename>
-        <group>Группа 101</group>
+        <group>101</group>
         <discipline>
             <name>Математика</name>
             <total_works>10</total_works>
