@@ -18,6 +18,5 @@ for dictt in data:
     list_one = list()
     name.append(dictt.get("ФИО"))
 
-# 4
 plt.pie(list_x, labels = name)
 plt.show()
