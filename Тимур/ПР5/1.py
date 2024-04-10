@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 list_x1 = []
 list_y1 = []
 
+plt.title("Построение графиков функций")
 # A
 for i in range(0, 10 + 1, 1):
     list_x1.append(i)
@@ -26,4 +27,5 @@ for i in range(0, 10 + 1, 1):
     list_x1.append(i)
     list_y1.append(- 2 * i ** 2 + i * 4)
 plt.plot(list_x1, list_y1, 'g.-')
+plt.grid()
 plt.show()
