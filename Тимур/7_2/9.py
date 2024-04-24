@@ -8,26 +8,26 @@ phones_list= [
  {'name':'Anna', 'city':'Samara', 'phones':['+7 (916) 105-13-56']}
 ]
 
-a = []
-b = []
-k = 0
-for i in phones_list:
-    a.append(i['name'])
-    b.append(i['city'])
-for i in range(len(a)):
-    for j in range(i + 1, len(b)):
-        if a[i] == a[j] and b[i] == b[j] and 'id' not in phones_list[i]:
-            phones_list[j]['id'] = 'забань меня'
-            k += 1
-            phones_list[i]['phones'] = list(set(phones_list[i]['phones'] + phones_list[j]['phones']))
-while k != 0:
-    for i in range(len(phones_list)):
-        if 'id' in phones_list[i]:
-            del phones_list[i]
-            k -= 1
-            break
-for i in phones_list:
-    print(i)
+# a = []
+# b = []
+# k = 0
+# for i in phones_list:
+#     a.append(i['name'])
+#     b.append(i['city'])
+# for i in range(len(a)):
+#     for j in range(i + 1, len(b)):
+#         if a[i] == a[j] and b[i] == b[j] and 'id' not in phones_list[i]:
+#             phones_list[j]['id'] = 'забань меня'
+#             k += 1
+#             phones_list[i]['phones'] = list(set(phones_list[i]['phones'] + phones_list[j]['phones']))
+# while k != 0:
+#     for i in range(len(phones_list)):
+#         if 'id' in phones_list[i]:
+#             del phones_list[i]
+#             k -= 1
+#             break
+# for i in phones_list:
+#     print(i)
 # 9.2
 
 BIG = {}

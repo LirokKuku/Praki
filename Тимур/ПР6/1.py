@@ -21,11 +21,7 @@ nulli = []
 for i in range(n):
     if 0 in list_n1[i]:
         nulli.append(i + 1)
-        if list_n1.count(list_n1[i]) != 1:
-            print("Тута есть нули")
-        else:
-            print("Тута нет нулей")
-print(*nulli)
+print('Количетсво строк с нулями:', len(nulli))
 
 list_n2 = list()
 
@@ -43,6 +39,7 @@ for i in range(m):
 
 n_1 = int(input())
 n_2 = int(input())
+print('Ввидите комманду:')
 command = str(input())
 
 def one(x_1, x_2):

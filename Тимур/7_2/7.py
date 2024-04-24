@@ -38,4 +38,4 @@ morse = {
 word = ""
 for i in a:
     word += morse[i]
-print(morse)
+print(word)

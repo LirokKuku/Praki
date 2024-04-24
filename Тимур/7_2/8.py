@@ -1,5 +1,5 @@
-a = str(input()).split(", ")
+a = str(input()).split(",")
 b = {}
 for i in range(len(a)):
-    b[a[i]] = "номер", i+1, "в строке"
+    b[a[i]] = "номер " + str(i+1) + " в строке"
 print(b)
